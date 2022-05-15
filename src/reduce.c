@@ -7,7 +7,6 @@
  */
 
 #include "rr.h"
-#include <math.h>
 
 /* Return an accurate approximation of a root using Newton's method. */
 double

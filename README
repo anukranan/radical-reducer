@@ -26,3 +26,6 @@ the radicand may have a value of 1 if it is already a perfect nth root); the
 way the program checks if a number is whole or not in simplify(); and the
 method of input, which is just a scanf() function. There are likely more fun
 problems to solve.
+
+To compile, you need a "bin" and "build" file in the directory. Sorry for the
+terrible compilation process, haha.
