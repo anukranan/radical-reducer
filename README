@@ -5,7 +5,7 @@ form. There are several things to be fixed, which you can find by looking at
 the comments I've left in the program.
 
 Given the degree of the root and the radicand, the program uses the formula
-(n√(x)/i)^n = y => √x = i√y, where n is the degree of the root, x is the
+(n√(x) / i)^n = y => n√x = i√y, where n is the degree of the root, x is the
 radicand, i is any positive integer above 0 and below the value of the root,
 and y is the computed value. Essentially, this formula combines every step you
 need to simplify radicals into one. You can try out the equation yourself in a
@@ -26,6 +26,3 @@ the radicand may have a value of 1 if it is already a perfect nth root); the
 way the program checks if a number is whole or not in simplify(); and the
 method of input, which is just a scanf() function. There are likely more fun
 problems to solve.
-
-To compile, you need a "bin" and "build" file in the directory. Sorry for the
-terrible compilation process, haha.
